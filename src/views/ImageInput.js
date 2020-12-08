@@ -114,7 +114,7 @@ class ImageInput extends Component {
         />
         <div style={{ position: 'relative' }}>
           <div style={{ position: 'absolute' }}>
-            <img src={imageURL} alt="imageURL" />
+            <img src={imageURL}  s alt="imageURL" />
           </div>
           {!!drawBox ? drawBox : null}
         </div>
